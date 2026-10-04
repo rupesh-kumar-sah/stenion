@@ -10,7 +10,6 @@ dashboard/AGENTS.md
 dashboard/CLAUDE.md
 # Legacy indexer run log (step 4 interim storage; superseded by Postgres in step 5)
 runs.jsonl
-.env
-.env.local
 *.log
 .DS_Store
+config.bat

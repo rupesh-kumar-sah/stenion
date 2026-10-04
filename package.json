@@ -6,11 +6,11 @@
     "node": ">=22.18"
   },
   "scripts": {
-    "build": "turbo build",
-    "build:dashboard": "turbo build --filter=@stenion/dashboard",
-    "dev": "turbo dev",
-    "dev:dashboard": "turbo dev --filter=@stenion/dashboard",
-    "dev:api": "turbo start --filter=@stenion/api",
+    "build": "node init && turbo build",
+    "build:dashboard": "node init && turbo build --filter=@stenion/dashboard",
+    "dev": "node init && turbo dev",
+    "dev:dashboard": "node init && turbo dev --filter=@stenion/dashboard",
+    "dev:api": "node init && turbo start --filter=@stenion/api",
     "test": "turbo test",
     "typecheck": "turbo typecheck",
     "lint": "eslint .",
